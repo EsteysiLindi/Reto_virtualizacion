@@ -56,22 +56,22 @@ Luego continúe con los pasos 3-5 anteriores. Si se encuentra con errores, prime
 ##### PROCEDIMIENTOS
 
 1. **Ejecutar un comando de prueba con Mininet:**
-   - ```bash
+    ```bash
      sudo mn --topo single, 4
      ```
 
 2. **Obtener ayuda sobre los comandos disponibles en Mininet:**
-   - ```bash
+    ```bash
      help
      ```
 
 3. **Ver los nodos conectados en la red:**
-   - ```bash
+    ```bash
      nodes
      ```
 
 4. **Ver los puertos y enlaces de la red:**
-   - ```bash
+    ```bash
      net
      ```
 
@@ -81,36 +81,36 @@ Luego continúe con los pasos 3-5 anteriores. Si se encuentra con errores, prime
      ```
 
 6. **Ver los procesos activos en un host específico (ejemplo: h1):**
-   - ```bash
+    ```bash
      h1 ps -a
      ```
 
 7. **Iniciar Mininet desde la terminal:**
-   - ```bash
+    ```bash
      sudo mn
      ```
 
 8. **Hacer ping entre dos nodos específicos (ejemplo: h1 a h2):**
-   - ```bash
+    ```bash
      h1 ping -c 1 h2
      ```
 
 9. **Hacer ping a todos los nodos de la red:**
-    - ```bash
+     ```bash
       pingall
       ```
 
 10. **Habilitar un enlace de un switch (ejemplo: s1):**
-    - ```bash
+     ```bash
       link s1 up
       ```
 
 11. **Deshabilitar un enlace de un switch (ejemplo: s1):**
-    - ```bash
+     ```bash
       link s1 down
       ```
 
 12. **Salir de Mininet:**
-    - ```bash
+     ```bash
       exit
       ```
