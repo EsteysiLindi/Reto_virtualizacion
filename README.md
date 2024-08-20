@@ -76,7 +76,7 @@ Luego continúe con los pasos 3-5 anteriores. Si se encuentra con errores, prime
      ```
 
 5. **Obtener detalles de todos los nodos:**
-   - ```bash
+    ```bash
      dump
      ```
 
@@ -110,15 +110,7 @@ Luego continúe con los pasos 3-5 anteriores. Si se encuentra con errores, prime
       link s1 down
       ```
 
-12. **Medir el ancho de banda entre dos nodos con iperf (ejemplo: h1 y h2):**
-    - ```bash
-      h1 iperf -s &
-      ```
-    - ```bash
-      h2 iperf -c h1
-      ```
-
-13. **Salir de Mininet:**
+12. **Salir de Mininet:**
     - ```bash
       exit
       ```
